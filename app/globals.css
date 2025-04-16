@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-n-1: #FA7275;
+  --color-n-2: #EA6365;
+  --color-n-3: #131524;
+  --color-n-4: #04050C;
+  --color-n-5: #333F4E;
+  --color-n-6: #A3B2C7;
+  --color-n-7: #F2F5F9;
+  --color-n-8: #F2F4F8;
+  --color-n-9: #FF7474;
+  --color-n-10: #3DD9B3;
+  --color-n-11: #F9AB72;
+  --color-n-12: #EEA8FD;
+  --color-n-13: #56B8FF;
+  --color-n-14: #B80000;
+}
+
+@utility h1 {
+  @apply font-bold text-[46px] leading-[56px];
+}
+
+@utility h2 {
+  @apply font-bold text-[24px] leading-[36px];
+}
+
+@utility h3 {
+  @apply font-semibold text-[20px] leading-[26px];
+}
+
+@utility h4 {
+  @apply font-medium text-[18px] leading-[20px];
+}
+
+@utility h5 {
+  @apply font-semibold text-[16px] leading-[24px];
+}
+
+@utility subtitle-1 {
+  @apply font-medium text-[16px] leading-[24px];
+}
+
+@utility subtitle-2 {
+  @apply font-semibold text-[14px] leading-[20px];
+}
+
+@utility body-1 {
+  @apply font-normal text-[16px] leading-[24px];
+}
+
+@utility body-2 {
+  @apply font-normal text-[14px] leading-[20px];
+}
+
+@utility button {
+  @apply font-semibold text-[15px] leading-[20px];
+}
+
+@utility caption {
+  @apply font-normal text-[12px] leading-[16px];
+}
+
+@utility overline {
+  @apply font-medium text-[10px] leading-[14px];
+}
