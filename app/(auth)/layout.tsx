@@ -3,7 +3,7 @@ import Image from "next/image"
 const AuthLayout = ({ children }: { children: React.ReactNode }) => {
     return (
         <div className="min-h-screen flex">
-            <section className="xl:w-2/5 w-1/2 p-10 bg-brand lg:flex hidden justify-center items-center">
+            <section className="xl:w-2/5 w-1/2 p-10 bg-brand-100 lg:flex hidden justify-center items-center">
                 <div className="max-w-[430px] flex flex-col items-center gap-12">
                     <div className="w-full">
                         <Image
