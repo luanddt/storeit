@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme inline {
+    --color-brand: #FA7275;
+}
+
+@utility h1 {
+    @apply font-bold text-[46px] leading-[56px];
+}
+
+@utility body-1 {
+    @apply font-normal text-[16px] leading-[24px];
+}
