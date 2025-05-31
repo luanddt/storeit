@@ -14,7 +14,7 @@ const MainLayout = async ({ children }: { children: React.ReactNode }) => {
             <Sidebar {...currentUser} />
 
             <section className="flex flex-[1] flex-col">
-                <MobileNavigation />
+                <MobileNavigation {...currentUser} />
                 
                 <Header />
 
