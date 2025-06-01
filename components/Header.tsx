@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import Search from "./Search";
 import FileUploader from "./FileUploader";
+import { signOutUser } from "@/lib/actions/user.actions";
 
 const Header = () => {
     return (
@@ -11,7 +12,11 @@ const Header = () => {
             <div className="flex justify-center items-center gap-4">
                 <FileUploader />
 
-                <form>
+                <form action={async () => {
+                    "use server";
+
+                    await signOutUser();
+                }}>
                     <Button
                         type="submit"
                         className="bg-brand/10 hover:bg-brand/20 p-0 size-12 rounded-full flex justify-center items-center"
