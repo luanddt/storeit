@@ -16,7 +16,10 @@ const MainLayout = async ({ children }: { children: React.ReactNode }) => {
             <section className="flex flex-[1] flex-col">
                 <MobileNavigation {...currentUser} />
                 
-                <Header />
+                <Header
+                    userId={currentUser.$id}
+                    accountId={currentUser.accountId}
+                />
 
                 <div className="bg-light-400 h-full md:px-9 px-5 md:py-10 py-7 sm:rounded-[30px] sm:mr-7 sm:mb-7">
                     {children}

@@ -59,6 +59,10 @@
     @apply font-bold text-[24px] leading-[36px];
 }
 
+@utility h4 {
+    @apply font-medium text-[18px] leading-[20px];
+}
+
 @utility h5 {
     @apply font-semibold text-[16px] leading-[24px];
 }
